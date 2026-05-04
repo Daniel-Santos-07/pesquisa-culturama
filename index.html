@@ -26,7 +26,8 @@
 
 <main>
 <section>
-<form action="" method="get">
+
+<form action="mensagem-enviada.html" method="get">
 
     <!-- Dados Pessoais -->
     <fieldset>
@@ -65,6 +66,8 @@
         <input id="outro" type="radio" name="userGender" value="Outro">
         <label for="outro">Outro</label>
 
+        <br>
+
         <label for="maritalStatus">Estado Civil</label>
         <select id="maritalStatus" name="maritalStatus">
             <option value="">Selecione</option>
@@ -82,7 +85,6 @@
             <option value="RJ">Rio de Janeiro</option>
             <option value="MG">Minas Gerais</option>
             <option value="RS">Rio Grande do Sul</option>
-            <!-- pode completar depois -->
         </select>
     </fieldset>
 
@@ -102,6 +104,8 @@
 
         <input type="checkbox" id="linkedin" name="social[]" value="linkedin">
         <label for="linkedin">LinkedIn</label>
+
+        <br>
 
         <label for="musicStyle">Estilo Musical</label>
         <input list="styleTypes" id="musicStyle" name="userMusicStyle">
@@ -133,6 +137,8 @@
         <input type="radio" id="ruim" name="userServiceOpinion" value="ruim">
         <label for="ruim">Ruim</label>
 
+        <br>
+
         <label for="comment">Comentário</label>
         <textarea id="comment" name="userComment" rows="4" placeholder="Digite sua opinião..."></textarea>
     </fieldset>
@@ -143,6 +149,8 @@
 
         <input type="checkbox" id="lgpd" name="userLgpd" required>
         <label for="lgpd">Aceito participar da pesquisa</label>
+
+        <br>
 
         <input type="checkbox" id="results" name="userGetResult">
         <label for="results">Quero receber resultados por email</label>
@@ -155,6 +163,7 @@
     </div>
 
 </form>
+
 </section>
 </main>
 
